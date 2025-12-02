@@ -122,10 +122,10 @@ const Navbar = () => {
            
                        <li className="text-black relative group">
   <button className="font-bold">
-    <h1 className=" ">
+    <h1 className="whitespace-nowrap">
                 second branch{": "}
               </h1>
-          <p className="text-base-content  font-title text-black text-sm">
+          <p className="text-base-content  font-title text-black text-sm whitespace-nowrap">
             The lower walkway near Villa Ghaith<br />
             </p>
   </button>
