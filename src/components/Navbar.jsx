@@ -47,7 +47,7 @@ const Navbar = () => {
           } grow basis-full overflow-hidden transition-[height] duration-300 max-md:w-full justify-end`}
         >
           <ul
-            className="menu md:menu-horizontal gap-2 p-0 text-base max-md:mt-2 font-bold font-title text-2xl space-y-4 md:space-y-0"
+            className="menu md:menu-horizontal  gap-10 p-0 text-base max-md:mt-22 font-bold font-title text-2xl space-y-4 md:space-y-0"
             style={{ backgroundColor: "#fbb714" }}
           >
             <li className="text-black">
@@ -60,6 +60,107 @@ const Navbar = () => {
                 Menu
               </Link>
             </li>
+
+            <li className="text-black  group">
+  <button className="font-bold">
+    <h1 className=" ">
+                First branch{": "}
+              </h1>
+          <p className="text-base-content  font-title text-black text-sm">
+            behind the university Stadium<br />
+            </p>
+  </button>
+
+  {/* Dropdown */}
+  <ul className="relative left-0 mt-2 hidden group-hover:block bg-white shadow-lg p-2 rounded-lg w-48 z-50">
+    <li>
+      <Link
+        to="/pasta"
+        className="block px-3 py-2 hover:bg-gray-100"
+        onClick={closeMenu}
+      >
+        pasta
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/pizza"
+        className="block px-3 py-2 hover:bg-gray-100"
+        onClick={closeMenu}
+      >
+        pizza
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/Prost"
+        className="block px-3 py-2 hover:bg-gray-100"
+        onClick={closeMenu}
+      >
+       Prost
+      </Link>
+    </li>
+  </ul>
+</li>
+
+
+
+
+
+            {/* <li className="text-black">
+              <Link to="/" onClick={closeMenu}>
+                <aside className="">
+        <h1 className=" ">
+                First branch{" "}
+              </h1>
+          <p className="text-base-content  font-title text-black text-sm">
+            behind the university Stadium<br />
+          </p>
+        </aside>
+              </Link>
+            </li> */}
+           
+                       <li className="text-black relative group">
+  <button className="font-bold">
+    <h1 className=" ">
+                second branch{": "}
+              </h1>
+          <p className="text-base-content  font-title text-black text-sm">
+            The lower walkway near Villa Ghaith<br />
+            </p>
+  </button>
+
+  {/* Dropdown */}
+  <ul className="relative left-0 mt-2 hidden group-hover:block bg-white shadow-lg p-2 rounded-lg w-48 z-50">
+    <li>
+      <Link
+        to="/pasta"
+        className="block px-3 py-2 hover:bg-gray-100"
+        onClick={closeMenu}
+      >
+        pasta
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/pizza"
+        className="block px-3 py-2 hover:bg-gray-100"
+        onClick={closeMenu}
+      >
+        pizza
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/Prost"
+        className="block px-3 py-2 hover:bg-gray-100"
+        onClick={closeMenu}
+      >
+       Prost
+      </Link>
+    </li>
+  </ul>
+</li>
         
 
             {/* <li className="text-black">
@@ -70,7 +171,7 @@ const Navbar = () => {
             </li> */}
 
             <li className="text-black">
-              <a href="tel:+2017574">17574</a>
+              <a href="tel:17574">17574</a>
             </li>
           </ul>
         </div>

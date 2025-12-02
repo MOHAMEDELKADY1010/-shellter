@@ -201,7 +201,7 @@ const Home = () => {
             style={{ backgroundColor: "black", color: "#fbb714" }}
             className="btn btn-secondary mt-4 "
           >
-            <a href="tel:+2017574"><p>17475</p></a>
+            <a href="tel:17574"><p>17475</p></a>
           </button>
         </div>
       </div>

@@ -6,6 +6,11 @@ import Footer from "./components/Footer";
 import Menu from "./components/Menu";
 import Home from "./components/Home";
 import Loading from "./components/Loading";
+import Pizza from "./components/Pizza";
+import Pasta from "./components/pasta";
+import Prost from "./components/Prost";
+
+
 import { loadMedia } from "./utils/loadMedia";
 
 
@@ -50,6 +55,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/menu" element={<Menu />} />
+          <Route path="/Pasta" element={<Pasta />} />
+          <Route path="/Pizza" element={<Pizza />} />
+          <Route path="/Prost" element={<Prost />} />
         </Routes>
         <Footer />
       </div>

@@ -12,7 +12,7 @@ const Footer = () => {
                 First branch{" "}
               </h6>
           <p className="text-base-content  font-title text-black text-sm">
-            behind the university Stadium
+            behind the university Stadium<br />
             Work from 9:00am to 3:00pm <br />7 days a week
           </p>
         </aside>
@@ -24,7 +24,7 @@ const Footer = () => {
           
 
           <p className="text-base-content  font-title text-black text-sm">
-            The lower walkway near Villa Ghaith
+            The lower walkway near Villa Ghaith<br />
             Work from 9:00am to 5:00pm <br />7 days a week
 
             
